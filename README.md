@@ -41,3 +41,19 @@
 Add dependencies
 
     yarn add @nguniversal/express-engine express
+
+## Define the start command
+
+Change in `package.json` section `scripts` eg.
+
+    "start:dev": "ng serve",
+    "start": "node server.js",
+
+## Build JS bundles
+
+    ng build --prod
+    ng run ng-on-gae:server
+
+You can now run the server locally, eg.
+
+    PORT=5000 yarn start
