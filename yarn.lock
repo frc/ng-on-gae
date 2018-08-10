@@ -194,6 +194,10 @@
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
 
+"@nguniversal/express-engine@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-6.0.0.tgz#f8bc7b5e940afb1ffdbdcb1bb22665d440ea0b0b"
+
 "@schematics/angular@0.7.3":
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-0.7.3.tgz#d4a33a78b152bded557efddba4616a8fafa9ae24"
@@ -2115,7 +2119,7 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-express@^4.16.2:
+express@^4.16.2, express@^4.16.3:
   version "4.16.3"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"
   dependencies:
